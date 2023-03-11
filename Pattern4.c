@@ -29,7 +29,7 @@ int main(){
     // Output the upper part of pattern
     for(int ctr = 1; ctr < n; ctr++){
         for(int ctr2 = n-1; ctr2 >= ctr; ctr2--){
-            printf("1");
+            printf(" ");
         }
         for(int ctr3 = 0; ctr3 < ctr; ctr3++){
             printf("*");
@@ -56,7 +56,7 @@ int main(){
     // Output the bottom part of pattern
     for(int ctr = 1; ctr < n; ctr++){
         for(int ctr2 = 0; ctr2 < ctr; ctr2++){
-            printf("1");
+            printf(" ");
         }
         for(int ctr3 = n; ctr3 > ctr; ctr3--){
             printf("*");
