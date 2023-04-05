@@ -19,7 +19,7 @@ int main(){
     scanf("%d", &n);
 
     // Output pattern
-    int num = 69;
+    int num = 64 + n;
     for(int ctr = 0; ctr < n; ctr++){
         for(int ctr2 = n; ctr2 > ctr; ctr2--){
             printf("%c ", num);
