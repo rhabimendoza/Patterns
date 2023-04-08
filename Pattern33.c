@@ -1,0 +1,31 @@
+/*
+
+E D C B A
+E D C B
+E D C
+E D
+E
+
+*/
+
+#include<stdio.h>
+
+int main(){
+
+    // Create n
+    int n;
+
+    // Get n
+    scanf("%d", &n);
+
+    // Output pattern
+    int num = 64 + n;
+    for(int ctr = 0; ctr < n; ctr++){
+        for(int ctr2 = n; ctr2 > ctr; ctr2--){
+            printf("%c ", num);
+            num--;
+        }
+        num = 64 + n;
+        printf("\n");
+    }
+}
